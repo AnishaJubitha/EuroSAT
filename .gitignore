@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+conda-env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data and outputs
+data/
+datasets/
+outputs/
+results/
+logs/
+mlruns/
+
+# Model checkpoints
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.onnx
+
+# Environment/secrets
+.env
+*.key
+*.pem
