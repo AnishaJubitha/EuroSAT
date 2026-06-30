@@ -2,7 +2,7 @@
 
 This project focuses on land use and land cover classification using the EuroSAT dataset. The aim of the project was to compare different deep learning approaches using RGB and multispectral information from Sentinel-2 satellite images.
 
-The best-performing model was an **intermediate fusion model **, where RGB and spectral features were combined at the feature level before classification.
+The best-performing model was an **intermediate fusion model ** , where RGB and spectral features were combined at the feature level before classification.
 
 ---
 
@@ -29,8 +29,8 @@ The following approaches were tested:
 
 - RGB-based classification
 - Spectral / multispectral-based classification
+- RGB and Spectral Indices 
 - Intermediate fusion model
-- Frozen vs unfrozen training
 
 The intermediate fusion model combines RGB and spectral features before the final classification layers. Training the model without freezing allowed the feature extraction layers to be fine-tuned for the EuroSAT dataset.
 
@@ -120,7 +120,7 @@ EuroSAT/
 
 ## Key Findings
 
-- The **intermediate fusion model without freezing** achieved the best performance.
+- The ** intermediate fusion model ** achieved the best performance.
 - Combining RGB and spectral information improved land cover classification.
 - The model achieved **98.67% test accuracy** and **98.62% macro F1-score**.
 - SeaLake achieved perfect classification on the test set.
