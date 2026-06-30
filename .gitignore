@@ -23,7 +23,6 @@ Thumbs.db
 data/
 datasets/
 outputs/
-results/
 logs/
 mlruns/
 
